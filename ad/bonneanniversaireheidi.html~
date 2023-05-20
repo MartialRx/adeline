@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joyeux anniversaire</title>
+<meta name="viewport" content="width=device-width" />
+<style>
+@media only screen and (max-device-width:767px) {
+body {
+text-align: center;
+font-size:1.1em;
+background-color: #666666 ;
+	color: #ffffff;
+ 	       margin: 0;
+		padding: 0;
+}
+img {   padding-top:0px;
+            width: 400px;
+	    height= auto;
+}
+a{
+text-align: center;
+}
+div {
+text-align: center;
+font-size:1.1em;
+}
+}
+@media only screen and (min-width: 501px) {
+ /* Appareils avec une résolution au-dessus de 500px */
+
+body {
+text-align: center;
+background-color: #666666 ;
+	color: #ffffff;
+		margin: 0;
+		padding: 0;
+}
+img {   padding-top:0px;
+           max-width:500px;
+	   height: auto;
+}
+}
+</style>
+</head>
+<body bgcolor="#666666" background="" bgproperties="fixed">
+<a href="partition.html" title="cliquez sur la carte">
+<img src="hermione.png"  style="text-decoration : none" alt="retour clic sur la carte">
+<a/>
+<!--<figure>
+<figcaption> &hearts; Flute à bec Catherine &hearts; <br>  &hearts;  &hearts;  Guitare Martial &hearts;  &hearts;  </figcaption>
+<audio id="player" controls title="Happy BirthDay" preload="auto">
+<source src="partition-heidi..mp3"  type="audio/mpeg" />
+ </audio>
+</figure>-->
+<div>&hearts;</div><div>Clic sur Hermione pour la partition anniversaire<br><br>
+ <a class="white" href="carteweb.pdf"> télécharger la carte d'anniversaire chat (pdf)</a><br>
+  <a class="white" href="hermionecarte.pdf"> télécharger la carte Hermione (pdf)</a><br>
+<a class="white" href="partition.pdf"> télécharger la partition (pdf)</a>
+</div>
+</body>
+</html>
